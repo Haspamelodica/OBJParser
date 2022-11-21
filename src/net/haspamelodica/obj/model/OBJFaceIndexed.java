@@ -27,7 +27,7 @@ public record OBJFaceIndexed(List<OBJFaceVertexIndexed> vertices)
 	{
 		return triangulatedVertexCountGeneric(vertices());
 	}
-	
+
 	public static class Builder
 	{
 		private final List<OBJFaceVertexIndexed> vertices;

@@ -22,7 +22,7 @@ public record OBJFace(List<OBJFaceVertex> vertices)
 	{
 		return triangulatedVertexCountGeneric(vertices());
 	}
-	
+
 	public static class Builder
 	{
 		private final List<OBJFaceVertex> vertices;
